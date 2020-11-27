@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --twitter-color: #00aced;
+  --discord-color: #6c87ca;
+  --instagram-color: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  --youtube-color: #ff0000;
+}
+.twitter-color {
+  background-color: var(--twitter-color);
+}
+.discord-color {
+  background-color: var(--discord-color);
+}
+.instagram-color {
+  background: var(--instagram-color);
+}
+.youtube-color {
+  background-color: var(--youtube-color);
+}
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  bottom: 150px;
+  display: flex;
+  height: 50px;
+  left: 50px;
+  position: absolute;
+  width: 200px;
+}
+.icon-container {
+  align-items: center;
+  border-radius: 2px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  width: 50px;
+}
+img {
+  height: 43px;
+  width: 43px;
+}
+.icon {
+  object-fit: contain;
+}
+.colored-border {
+  height: 50px;
+  left: 53px;
+  position: absolute;
+  width: 0;
+}
+.text-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  left: 53px;
+  position: absolute;
+  width: 145px;
+}
+.text {
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.white-border {
+  background-color: white;
+  height: 50px;
+  left: 200px;
+  position: absolute;
+  width: 0;
+}
