@@ -49,10 +49,10 @@ body {
   position: absolute;
   width: 50px;
 }
-img {
+/* img {
   height: 43px;
   width: 43px;
-}
+} */
 .icon {
   object-fit: contain;
 }
