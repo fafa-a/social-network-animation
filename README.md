@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Clone this repository
+1. clone this repository
 2. cd social-network-animation
 3. open index.html
 4. search for div where the CSS class is text
