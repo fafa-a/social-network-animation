@@ -1,6 +1,6 @@
 # social-network-animation
 
-![gif of social media animation](./vid/social-animation.gif "Animated social links")
+![gif of social media animation](./gif/social-animation.gif "Animated social links")
 
 ## Installation
 
@@ -11,3 +11,5 @@
 5. instead of @nameOfSocialMedia type your own link
 6. save the file
 7. open index.html in browsers source of your streaming software
+
+You should deleted the gif folder.
